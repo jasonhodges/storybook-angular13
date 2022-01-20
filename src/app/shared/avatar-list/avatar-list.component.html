@@ -1,0 +1,7 @@
+<mat-list>
+  <mat-list-item *ngFor="let item of listItems" class="avatar-list-item">
+    <app-avatar [setAvatarData]="item"></app-avatar>
+    <h3>{{item.name}}</h3>
+  <mat-divider></mat-divider>
+  </mat-list-item>
+</mat-list>

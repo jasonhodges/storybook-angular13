@@ -20,7 +20,7 @@ $storybook-angular13-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$storybook-angular13-theme: mat.define-light-theme((
+$storybook-angular13-theme: mat.define-dark-theme((
   color: (
     primary: $storybook-angular13-primary,
     accent: $storybook-angular13-accent,
